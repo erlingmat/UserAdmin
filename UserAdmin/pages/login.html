@@ -1,0 +1,38 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $( "#target" ).submit(function( event ) {
+    event.preventDefault();
+
+    $.ajax({
+      url: "http://localhost:1234/login",
+      data:  {
+        username: $("input:username").val(),
+        password: $("input:password").val()
+      },
+      context: document.body
+    }).done(function(data) {
+      alert( "Callback Handler for api call - called. Response is: " + data );
+      $( this ).addClass( "done" );
+    });
+  });
+   // jQuery methods go here...
+
+});
+</script>
+<title>Unsecure user administration module</title>
+</head>
+<body>
+
+<form  id="target" action="login.html">
+Username <br>
+<input type="text" name="username"><br>
+Password <br>
+<input type="password" name="password"><br>
+<input type="submit">
+</form>
+
+</body>
+</html>

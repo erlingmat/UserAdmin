@@ -1,0 +1,9 @@
+C:\Users\emm\Documents\Projects\UserAdmin\UserAdmin\bin\Debug\UserAdmin.exe.config
+C:\Users\emm\Documents\Projects\UserAdmin\UserAdmin\bin\Debug\UserAdmin.exe
+C:\Users\emm\Documents\Projects\UserAdmin\UserAdmin\bin\Debug\UserAdmin.pdb
+C:\Users\emm\Documents\Projects\UserAdmin\UserAdmin\bin\Debug\Grapevine.dll
+C:\Users\emm\Documents\Projects\UserAdmin\UserAdmin\obj\Debug\UserAdmin.csprojResolveAssemblyReference.cache
+C:\Users\emm\Documents\Projects\UserAdmin\UserAdmin\obj\Debug\UserAdmin.exe
+C:\Users\emm\Documents\Projects\UserAdmin\UserAdmin\obj\Debug\UserAdmin.pdb
+C:\Users\emm\Documents\Projects\UserAdmin\UserAdmin\bin\Debug\Newtonsoft.Json.dll
+C:\Users\emm\Documents\Projects\UserAdmin\UserAdmin\bin\Debug\Newtonsoft.Json.xml
